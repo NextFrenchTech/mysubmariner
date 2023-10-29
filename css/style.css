@@ -13,8 +13,8 @@
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  transform: scale();
+  transform: scale(0.7);
   background: linear-gradient(45deg, #292927 0%, #565654 50%, #AFAFAD 100%) fixed;
 }
 
@@ -865,7 +865,6 @@ i.sec:nth-of-type(14) {
   letter-spacing: -0.05em;
   top: -45px;
   position: relative;
-
 }
 .content-lower .sub-swiss {
   position: absolute;
@@ -1312,4 +1311,10 @@ border-right: 3px solid #5666AD;
   border-radius: 7%/0 0 100% 100%;
   background-image: linear-gradient(180deg, #9B9C9E 0%, #D6D7D9 12%, #3B3F40 18%, #161A1B 20%, #363A3B 22%, #393D3E 23%, #717274 42%, #D7D8DA 74%, #D7D8DA 81%, #5D6162 83%, #5C5D5F 86%, #353638 89%, #F4F8F9 93%, #000100 94%);
   box-shadow: inset -1px 0 2px 0 rgba(255, 255, 255, 0.5), inset 1px 0 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 427px) {
+  html, body {
+    margin-left: -2vw;
+  }
 }
