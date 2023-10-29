@@ -322,9 +322,14 @@ Start main code
 }
 .bezel .bezel-gradient {
 /*make up here*/
-background: linear-gradient(90deg, #1C3A7E 0%, #1E2B59 30%, #295CA9 50%, #1E2B59 60%, #1153A2 100%);
+/*background: linear-gradient(90deg, #1C3A7E 0%, #1E2B59 30%, #295CA9 50%, #1E2B59 60%, #1153A2 100%);*/
+background: linear-gradient(90deg, #1C7E3A 0%, #1E592B 30%, #29A95C 50%, #1E592B 60%, #11A253 100%);
+
 /* Main BG */
-box-shadow: 0 0 0 2px #272A51, -1px 0 6px 0 #fff;
+/*make up here*/
+/*box-shadow: 0 0 0 2px #272A51, -1px 0 6px 0 #fff;*/
+box-shadow: 0 0 0 2px #27512A, -1px 0 6px 0 #fff;
+
 /* Shadow */
 /* Gradient shine decor */
 /* Gradient shine decor */
@@ -336,7 +341,9 @@ box-shadow: 0 0 0 2px #272A51, -1px 0 6px 0 #fff;
 }
 .bezel .bezel-gradient:after {
 /*make up here*/
-background: linear-gradient(128deg, #373D7D 0%, #2E305B 22%, #3C68B3 22%, #5274B8 50%, rgba(40, 42, 80, 0) 90%);
+/*background: linear-gradient(128deg, #373D7D 0%, #2E305B 22%, #3C68B3 22%, #5274B8 50%, rgba(40, 42, 80, 0) 90%);*/
+background: linear-gradient(128deg, #377D3D 0%, #2E5B30 22%, #3CB368 22%, #52B874 50%, rgba(40, 42, 80, 0) 90%);
+
   height: 280px;
   width: 120px;
   right: 0;
@@ -344,7 +351,9 @@ background: linear-gradient(128deg, #373D7D 0%, #2E305B 22%, #3C68B3 22%, #5274B
 }
 .bezel .bezel-gradient:before {
 /*make up here*/
-background: linear-gradient(-138deg, #373D7D 0%, #2E305B 22%, #5666AD 23%, #4B60A6 64%, rgba(40, 42, 80, 0) 70%);
+/*background: linear-gradient(-138deg, #373D7D 0%, #2E305B 22%, #5666AD 23%, #4B60A6 64%, rgba(40, 42, 80, 0) 70%);*/
+background: linear-gradient(-138deg, #377D3D 0%, #2E5B30 22%, #56AD66 23%, #4BA660 64%, rgba(40, 42, 80, 0) 70%);
+
   height: 300px;
   width: 148px;
   left: 0;
@@ -572,7 +581,9 @@ i.bez:nth-of-type(14) {
 /* Border, inner and outer rings */
 .crystal {
 /*make up here*/
-box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.7), 0 0 0 2px #272A51;
+/*box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.7), 0 0 0 2px #272A51;*/
+box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.7), 0 0 0 2px #27512A;
+
   position: absolute;
   width: 322px;
   height: 322px;
@@ -601,7 +612,9 @@ box-shadow: inset 1px 1px 4px 0 rgba(0, 0, 0, 0.7), 0 0 0 2px #272A51;
 
 .face {
 /*make up here*/
-background: radial-gradient(ellipse at center, #1752A3 0%, #1D3A6F 80%);
+/*background: radial-gradient(ellipse at center, #1752A3 0%, #1D3A6F 80%);*/
+background: radial-gradient(ellipse at center, #17A352 0%, #1D6F3A 80%);
+
   position: absolute;
   width: 286px;
   height: 286px;
@@ -1006,10 +1019,9 @@ i.sec:nth-of-type(14) {
 /* Date box, border, and number */
 #date-num {
 /*make up here*/
-border-top: 3px solid #373D7D;
-border-left: 3px solid #373D7D;
-border-bottom: 3px solid #5666AD;
-border-right: 3px solid #5666AD;
+/*border-top: 3px solid #373D7D; border-left: 3px solid #373D7D; border-bottom: 3px solid #5666AD; border-right: 3px solid #5666AD;*/
+border-top: 3px solid #377D3D; border-left: 3px solid #377D3D; border-bottom: 3px solid #56AD66; border-right: 3px solid #56AD66;
+
   font-family: "Krona One", sans-serif;
   position: absolute;
   top: 8px;
