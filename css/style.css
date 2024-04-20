@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  transform: scale(0.7);
+  transform: scale(0.6);
   background: linear-gradient(45deg, #292927 0%, #565654 50%, #AFAFAD 100%) fixed;
 }
 
@@ -1327,6 +1327,6 @@ border-top: 3px solid #377D3D; border-left: 3px solid #377D3D; border-bottom: 3p
 
 @media (max-width: 427px) {
   html, body {
-    margin-left: -2vw;
+    margin-left: -1.5vw;
   }
 }
