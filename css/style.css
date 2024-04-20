@@ -1327,6 +1327,6 @@ border-top: 3px solid #377D3D; border-left: 3px solid #377D3D; border-bottom: 3p
 
 @media (max-width: 427px) {
   html, body {
-    margin-left: -2vw;
+    zoom: 85%;
   }
 }
